@@ -18,6 +18,9 @@ public class HomePage extends BasePage {
     @FindBy(xpath = "//input[@id='nav-search-submit-button']")
     private WebElement searchButton;
 
+    @FindBy(xpath = "//input[@id='nav-search-submit-button']")
+    private WebElement searchButtons;
+
     @FindBy(xpath = "//a[@id='nav-link-accountList']")
     private WebElement accountList;
 
